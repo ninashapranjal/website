@@ -1,4 +1,4 @@
-const text = "Hi my name is 1234567";
+const text = "insert name";
 const typingElement = document.getElementById("typing");
 
 let index = 0;
