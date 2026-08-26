@@ -2,6 +2,14 @@
   --cream:#faf3e8;
   --tan:#e4d9bd;
   --tan-line:rgba(169,133,95,0.28);
+  --brown:#a9855f;
+  --brown-dark:#8a6a48;
+  --card-bg:#fffaf0;
+  --pink:#f2b6ae;
+  --mint:#b7d9c4;
+  --peach:#f0c48a;
+  --lav:#cdb8dd;
+  --border:#8a6a48;
 }
 *{box-sizing:border-box;}
 html,body{
