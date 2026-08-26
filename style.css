@@ -15,3 +15,33 @@ html,body{
   width:100%; height:100%;
   display:flex; align-items:center; justify-content:center;
 }
+
+/* 3d border frame*/
+.frame{
+  position:relative;
+  z-index:5;
+  padding:40px;
+  border-radius:34px;
+  background:var(--cream); /* fallback base color, plaid drawn on top */
+  box-shadow:0 16px 30px rgba(138,106,72,.22);
+}
+#plaidCanvas{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  border-radius:34px;
+  display:block;
+}
+
+.card{
+  position:relative;
+  z-index:2;
+  width:320px;
+  background:var(--card-bg);
+  border:2px solid var(--border);
+  border-radius:26px;
+  padding:24px 22px 26px;
+  text-align:center;
+}
+
