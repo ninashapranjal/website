@@ -1,0 +1,17 @@
+:root{
+  --cream:#faf3e8;
+  --tan:#e4d9bd;
+  --tan-line:rgba(169,133,95,0.28);
+}
+*{box-sizing:border-box;}
+html,body{
+  margin:0; height:100%;
+  font-family:'Trebuchet MS','Comic Sans MS',sans-serif;
+  background:var(--cream);
+  overflow:hidden;
+}
+.stage{
+  position:relative;
+  width:100%; height:100%;
+  display:flex; align-items:center; justify-content:center;
+}
